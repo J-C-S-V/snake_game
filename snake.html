@@ -10,11 +10,16 @@
   </head>
   <body>
     <h1>Snake game 🐍</h1>
-    <button type="button" class="button" id="startButtonid">Start</button>
-
-    <canvas id="snake" width="608" height="608"> </canvas>
-    <button type="button" class="button" id="restartButtonid">Restart</button>
+    <div class="main-container">
+      <div class="side-bar-left"></div>
+      <div class="canvas-and-buttons-container">
+        <button type="button" class="button" id="startButtonid">Start</button>
+        <canvas id="snake" width="608" height="608"> </canvas>
+        <button type="button" class="button" id="restartButtonid">
+          Restart
+        </button>
+      </div>
+      <div class="side-bar-right"></div>
+    </div>
   </body>
-
-  <script src="snake.js" defer></script>
 </html>
